@@ -1,0 +1,53 @@
+.title {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 8px;
+    margin-top: 20px;
+    text-shadow: rgb(255, 255, 255) 1.95px 1.95px 2.6px;
+    margin-bottom: 50px;
+     background-color: rgba(0, 0, 0, 0.685);
+}
+
+
+.wrapAll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.wrapAll p {
+    color: #ff9100;
+    padding: 15px 125px;
+    border-radius: 999px;
+    font-size: 22px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.wrapResps {
+    background-color: rgba(0, 0, 0, 0.685);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.wrapResps h3{
+    font-size: 28px;
+    color: rgb(214, 10, 10);
+}
